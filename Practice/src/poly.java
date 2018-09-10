@@ -30,7 +30,7 @@ class A{
 		System.out.println("inside m3 of class A");
 	}
 	public A() {
-		System.out.println("constructor of class A----8");
+		System.out.println("constructor of class A----6");
 	}
 	
 	
@@ -47,10 +47,10 @@ class B extends A{
 			System.out.println("inside static block of B---2");
 		}
 	 public B() {
-			System.out.println("constructor of class B-9");
+			System.out.println("constructor of class B---8");
 		}
 	 {
-	 System.out.println("Instance block of class B----6");
+	 System.out.println("Instance block of class B----7");
 	 }
 	
 	
@@ -69,7 +69,7 @@ class C extends B{
 		System.out.println("constructor of class C----10");
 	}
 	{
-		System.out.println("Instance block of class C----7");
+		System.out.println("Instance block of class C----9");
 	}
 	
 	
