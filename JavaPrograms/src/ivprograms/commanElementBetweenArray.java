@@ -22,6 +22,7 @@ public class commanElementBetweenArray {
 		}
 		System.out.println(list);
 		System.out.println(set);
+		
 		{
 	        Integer[] i1 = {1, 2, 3, 4, 5, 4};
 	 
