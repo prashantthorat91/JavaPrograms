@@ -8,7 +8,7 @@ import java.util.List;
 public class commanElementBetweenArray {
 
 	public static void main(String[] args) {
-		String[] str1 = {"ABC","pqr","ABC","abc","pst"};
+		String[] str1 = {"ABC","pqr","hh","ABC","abc","pst"};
 		String[] str2 = {"ABC","pQr","sC","abc","hh","aa"};
 		HashSet<String> set = new HashSet<String>();
 		List<String> list = new ArrayList<>();
@@ -17,6 +17,8 @@ public class commanElementBetweenArray {
 				 if(str1[i].equals(str2[i])) {
 					 set.add(str1[i]);
 					 list.add(str1[i]);
+				 }else {
+					 //set.add(str1[i]);
 				 }
 			}
 		}

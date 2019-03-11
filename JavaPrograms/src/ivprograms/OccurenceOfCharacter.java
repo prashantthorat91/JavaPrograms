@@ -19,7 +19,7 @@ public class OccurenceOfCharacter {
 	//countOfCharacters();
 	//countOfWords();
 	reverseString();
-    getCountOfWord("abc");
+   // getCountOfWord("abc");
 	}
 	private static int getCountOfWord(String Word) {
 		int count=0;
